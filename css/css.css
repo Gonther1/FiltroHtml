@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Kollektif';
-    src: url(../fonts/Kollektif.ttf);
-    font-style: normal;
+font-family: 'Kollektif';
+src: url(../fonts/Kollektif.ttf);
+font-style: normal;
 }
 * {
     margin: 0;
@@ -9,19 +9,109 @@
     box-sizing: border-box;
     font-family: 'Kollektif';
 }
-html, body, .modals {
+html, body, main {
     width: 100vw;
     height: 100vh;
 }
-.modals {
+main {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-1 {
+    width: 40%;
+    height: 70%;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.modal-1 div {
+    border: 1px solid greenyellow;
+}
+.modal-1-exit {
+    width: 95%;
+    display: flex;
+    justify-content: end;
+}
+.modal-1-exit-img {
+    width: 10%;
+}
+.modal-1-exit-img img {
+    width: 100%;
+}
+.modal-1-logotext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 65%;
+}
+.modal-1-logotext-img {
+    width: 50%;
+}
+.modal-1-logotext-img img {
+    width: 100%;
+}
+.modal-1-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 40%;
+}
+.modal-1-inputs-input{
+    width: 100%;
+    height: 35%;
+}
+.modal-1-inputs input {
+    width: 100%;
+    height: 60%;
+    border-radius: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .modals {
     background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .modals-first {
-    width: 40%;
-    height: 80%;
+    width: 35%;
+    height: 65%;
     background-color: white;
     border-radius: 30px;
     display: flex;
@@ -54,7 +144,6 @@ html, body, .modals {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 8%;
 }
 .first-content-image {
     width: 45%;
@@ -64,12 +153,14 @@ html, body, .modals {
     width: 100%;
     height: 100%;
 }
-.first-content-labels {
-    height: 15%;
+.first-content-inputs {
+    height: 40%;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
-.first-content-labels input {
+
+.first-content-inputs-1 input,.first-content-inputs-2 input {
     width: 100%;
-    height: auto;
     border-radius: 40px;
     border: 1px solid gray;
 }
@@ -114,4 +205,13 @@ html, body, .modals {
     width: 100%;
     height: 100%;
 }
-/* Segundo modal*/
+.buttons-registrar:active {
+    background-color: black;
+} 
+.label-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+} */
+
+
