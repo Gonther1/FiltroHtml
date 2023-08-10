@@ -73,6 +73,19 @@ main {
     height: 60%;
     border-radius: 40px;
 }
+.modal-1-buttons {
+    display: flex;
+    width: 80%;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.buttons button {
+    color: white;
+    background-color: blue;
+}
 
 
 
