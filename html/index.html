@@ -9,7 +9,7 @@
 </head>
 <body>
     <section class="modals">
-        <div class="modals-first">
+        <div class="modals-first" style="display: none;">
             <div class="modals-first-content">
                 <div class="first-content-exit">
                     <i class="fa-solid fa-arrow-right-from-bracket"></i>
@@ -18,13 +18,13 @@
                     <div class="first-content-image">
                         <img src="../img/Screenshot from 2023-08-08 12-31-36.png" alt="LogoRepairExpress">
                     </div>
-                    <strong>Por favor ingresa tu Repair Express ID</strong>
+                    <p>Por favor ingresa tu Repair Express ID</p>
                 </div>
                 <div class="first-content-labels">
                     <label for="label-1">Repair Express ID <br><input type="text" name="" id="label-1"></label>
                 </div>
                 <div class="first-content-labels">
-                    <label for="label-2"> <br>Contraseña <br><input type="text" name="" id="label-2"></label>
+                    <label for="label-2">Contraseña <br><input type="text" name="" id="label-2"></label>
                 </div>
                 <br>
                 <div class="first-content-buttons">
@@ -43,6 +43,19 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <a href="#modal1">DESLIZAR</a>
+        <div id="modal1" class="modalmask">
+            <div class="modalbox movedown">
+                <a href="#close" title="Close" class="close">X</a>
+                <h2>DESLIZAR</h2>
+                <p>La ventana modal aparece por arriba y se desliza hasta su posición. Un efecto simple pero elegante.</p>
+                <p>Aquí puedes incluir cualquier cosa como vídeos, mapas, formularios...</p>
+            </div>
+        </div>
+        <div id="modal2" class="modalmask">
+            <div class="modalbox rotate">
+                <a href="#close" title="Close" class="close">X</a>
         </div>
     </section>
 </body>
