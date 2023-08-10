@@ -75,14 +75,16 @@ main {
 }
 .modal-1-buttons {
     display: flex;
+    justify-content: center;
     width: 80%;
 }
 .buttons {
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 30%;
 }
 .buttons button {
+    width: 100%;
     color: white;
     background-color: blue;
 }
